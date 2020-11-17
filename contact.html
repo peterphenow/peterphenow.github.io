@@ -4,9 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Bootstrap CDN link -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.3/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>About Peter Phenow</title>
+    <title>Contact Me</title>
   </head>
   <body>
     <!-- Beginning of nav bar -->
@@ -35,38 +40,39 @@
     </div>
     <!-- End of nav bar -->
 
+    <!-- Begin Contact section -->
     <main class="wrapper">
-      <!-- Begin about me heading -->
       <div class="container">
         <div class="row">
           <div class="col-md-8">
-            <h2>About Me</h2>
+            <h2>Contact</h2>
             <hr />
-          </div>
-        </div>
-        <!-- Begin photo -->
-        <div class="row">
-          <div class="col-md-8">
-            <img
-              class="float-left img-container"
-              src="./assets/images/peter_bitmoji.png"
-              alt="Bitmoji of Peter Phenow"
-            />
-            <!-- Begin bio section -->
-            <article>
-              <p>
-                Hello, my name is Peter Phenow and I am currently enrolled in a full-stack web
-                development bootcamp. I am always working toward learning new things and am excited
-                to start my career in the tech industry.
-              </p>
-              <p>
-                In my previous career as an accountant, I was always trying to find the best ways to
-                automate repetitive processes. One of my largest accomplishments was with Excel
-                macros, completing one that would take a huge Excel datasheet and re-work it into
-                several smaller pages which were easier to understand and manage. This would save
-                hours of manual processing every week.
-              </p>
-            </article>
+            <!-- Begin form -->
+            <form>
+              <div class="form-group">
+                <label for="FormControlName">Name</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="FormControlName"
+                  placeholder="First and last name"
+                />
+              </div>
+              <div class="form-group">
+                <label for="FormControlEmail">Email address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="FormControlEmail"
+                  placeholder="name@example.com"
+                />
+              </div>
+              <div class="form-group">
+                <label for="FormControlTextarea1">Message</label>
+                <textarea class="form-control" id="FormControlTextarea1" rows="3"></textarea>
+              </div>
+            </form>
+            <button type="button" class="btn btn-info">Submit</button>
           </div>
         </div>
       </div>

@@ -13,6 +13,14 @@
   line-height: 1.2;
 }
 
+.navbar-color {
+  background-color: #afd0bf;
+}
+
+body {
+  background-color: #e2efde;
+}
+
 /* Styling for about me image */
 .img-container {
   padding-right: 20px;

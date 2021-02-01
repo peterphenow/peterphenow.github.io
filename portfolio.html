@@ -1,153 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Bootstrap CDN link -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>My Portfolio</title>
-  </head>
-  <body>
-    <!-- Beginning of nav bar -->
-    <div class="top">
-      <div class="collapse" id="navbarToggleExternalContent">
-        <div class="bg-dark p-4">
-          <a class="nav-link" href="./index.html"><h5 class="text-white h4">About</h5></a>
-          <a class="nav-link" href="./portfolio.html"><h5 class="text-white h4">Portfolio</h5></a>
-          <a class="nav-link" href="./contact.html"><h5 class="text-white h4">Contact</h5></a>
-        </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Bootstrap CDN link -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <title>My Portfolio</title>
+</head>
+
+<body>
+  <!-- Beginning of nav bar -->
+  <div class="top">
+    <div class="collapse" id="navbarToggleExternalContent">
+      <div class="bg-dark p-4">
+        <a class="nav-link" href="./index.html">
+          <h5 class="text-white h4">About</h5>
+        </a>
+        <a class="nav-link" href="./portfolio.html">
+          <h5 class="text-white h4">Portfolio</h5>
+        </a>
+        <a class="nav-link" href="./contact.html">
+          <h5 class="text-white h4">Contact</h5>
+        </a>
       </div>
-      <nav class="navbar navbar-dark bg-dark">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarToggleExternalContent"
-          aria-controls="navbarToggleExternalContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <span class="navbar-text mx-auto" id="header-PP">Peter Phenow</span>
-      </nav>
     </div>
-    <!-- End of nav bar -->
+    <nav class="navbar navbar-dark bg-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
+        aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <span class="navbar-text mx-auto" id="header-PP">Peter Phenow</span>
+    </nav>
+  </div>
+  <!-- End of nav bar -->
 
-    <main class="wrapper">
-      <!-- Begin main portfolio section -->
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 text-center">
-            <h2>Portfolio</h2>
-            <hr />
-          </div>
-        </div>
-        <!-- Begin 2nd row. 1st row of portfolio images -->
-        <div class="row">
-          <!-- 1st portfolio item (top-left) -->
-          <div class="col-md-6 text-center">
-            <h4>Eat-Da-Burger!</h4>
-            <a href="https://github.com/peterphenow/Eat-Da-Burger" target="_blank">Link to Github Repository</a>
-            <a href="https://hidden-headland-15912.herokuapp.com/" target="_blank">
-              <img
-                class="img-thumbnail portfolio-img-container"
-                src="./assets/images/portfolioPics/eat-da-burger.png"
-                alt="Portfolio Item #1 - Eat Da Burger"
-              />
-            </a>
-            <p>
-              This was my first assignment that introduced me to the MVC design pattern. It was a tough transition learning the new layout of files
-              and how to separate, yet connect, all the code but I can see how it is a critical design to learn in order to easily make future updates
-              to an app. This assignment also used a homemade ORM to create an object for all the SQL statement functions. I also used MySQL, Node,
-              Express.js, and Handlebars to complete this app.
-            </p>
-          </div>
-          <!-- 2nd portfolio item (top-right) -->
-          <div class="col-md-6 text-center">
-            <h4>Realm Roller</h4>
-            <a href="https://github.com/peterphenow/RealmRoller" target="_blank">Link to Github Repository</a>
-            <a href="https://peterphenow.github.io/RealmRoller/" target="_blank">
-              <img
-                class="img-thumbnail portfolio-img-container"
-                src="./assets/images/portfolioPics/realmRollerImg.png"
-                alt="Portfolio Item #1 - Realm Roller"
-              />
-            </a>
-            <p>
-              This was my first attempt at a group project with my bootcamp cohort. We were tasked to use 2 server-side APIs, find and use a new CSS
-              framework other than Bootstrap, and create a responsive and polished website. My group and I decided to create a 1-stop shop for
-              everything a D&D Master might need to run a successful campaign.
-            </p>
-          </div>
-        </div>
-        <!-- Begin 3rd row, 2nd row of portfolio items -->
-        <div class="row">
-          <!-- 3rd portfolio item(bottom-left) -->
-          <div class="col-md-6 text-center">
-            <h4>Weather Dashboard</h4>
-            <a href="https://github.com/peterphenow/HW6_Weather_Dashboard" target="_blank">Link to Github Repository</a>
-            <a href="https://peterphenow.github.io/HW6_Weather_Dashboard/" target="_blank">
-              <img
-                class="img-thumbnail portfolio-img-container"
-                src="./assets/images/portfolioPics/weatherDashboardImg.png"
-                alt="Portfolio Item #2 - Weather Dashboard"
-              />
-            </a>
-            <p>
-              This weather dashboard was my first assignment using an API with an AJAX call and response. In order to retrieve all the necessary
-              information, I actually needed to complete 2 AJAX calls, with the second call dependant on the data received from the first.
-            </p>
-          </div>
-          <!-- 4th portfolio item (bottom-right) -->
-          <div class="col-md-6 text-center">
-            <h4>Workday Scheduler</h4>
-            <a href="https://github.com/peterphenow/HW5_Day_Planner" target="_blank">Link to Github Repository</a>
-            <a href="https://peterphenow.github.io/HW5_Day_Planner/" target="_blank">
-              <img
-                class="img-thumbnail portfolio-img-container"
-                src="./assets/images/portfolioPics/WorkdaySchedulerWithInputs.png"
-                alt="Portfolio Item #3 - Workday Scheduler"
-              />
-            </a>
-            <p>
-              This workday scheduler was my introduction to the moment.js library to work with dates and times. The user is able to enter and save
-              notes for each hour of a work day. Throughout the workday, each time slot is dynamically updated to show past, present, and future hours
-              as different colors.
-            </p>
-          </div>
+  <main class="wrapper">
+    <!-- Begin main portfolio section -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h2>Portfolio</h2>
+          <hr />
         </div>
       </div>
-    </main>
+      <!-- Begin 2nd row. 1st row of portfolio images -->
+      <div class="row">
+        <!-- 1st portfolio item (top-left) -->
+        <div class="col-md-6 text-center">
+          <h4>Hidden Gems</h4>
+          <a href="https://github.com/peterphenow/Hidden-Gems" target="_blank">Link to Github Repository</a>
+          <a href="https://ancient-waters-90063.herokuapp.com/" target="_blank">
+            <img class="img-thumbnail portfolio-img-container" src="./assets/images/portfolioPics/HiddenGems.gif"
+              alt="Portfolio Item #1 - Hidden Gems" />
+          </a>
+          <p>
+            The focus of this assignment was to work with a group of fellow students to create a fully-functional
+            website utilizing all of the material we have learned so far in class.
 
-    <!-- Begin footer -->
-    <footer class="footer bg-dark text-white-50">
-      <div class="container text-center">
-        <span>&copy; Copyright Peter Phenow</span>
+            Our project, Hidden Gems, is a Google Maps API-powered application, utilizing a MYSQL database in
+            conjunction with Sequelize, that lets the user store locations on a map of places they loved visiting before
+            the pandemic lockdowns, as reminders to visit them again or to share their experience with other users
+            encouraging them to visit. When the user clicks anywhere on the map, a pop up window appears and lets them
+            enter information about the location. After submitting their location, the marker's data and location is
+            written into the database for future use and for others to see.
+          </p>
+        </div>
+        <!-- 2nd portfolio item (top-right) -->
+        <div class="col-md-6 text-center">
+          <h4>Eat-Da-Burger!</h4>
+          <a href="https://github.com/peterphenow/Eat-Da-Burger" target="_blank">Link to Github Repository</a>
+          <a href="https://hidden-headland-15912.herokuapp.com/" target="_blank">
+            <img class="img-thumbnail portfolio-img-container" src="./assets/images/portfolioPics/eat-da-burger.png"
+              alt="Portfolio Item #2 - Eat Da Burger" />
+          </a>
+          <p>
+            This was my first assignment that introduced me to the MVC design pattern. It was a tough transition
+            learning the new layout of files
+            and how to separate, yet connect, all the code but I can see how it is a critical design to learn in order
+            to easily make future updates
+            to an app. This assignment also used a homemade ORM to create an object for all the SQL statement functions.
+            I also used MySQL, Node,
+            Express.js, and Handlebars to complete this app.
+          </p>
+        </div>
       </div>
-    </footer>
+      <!-- Begin 3rd row, 2nd row of portfolio items -->
+      <div class="row">
+        <!-- 3rd portfolio item(bottom-left) -->
+        <div class="col-md-6 text-center">
+          <h4>Realm Roller</h4>
+          <a href="https://github.com/peterphenow/RealmRoller" target="_blank">Link to Github Repository</a>
+          <a href="https://peterphenow.github.io/RealmRoller/" target="_blank">
+            <img class="img-thumbnail portfolio-img-container" src="./assets/images/portfolioPics/realmRollerImg.png"
+              alt="Portfolio Item #3 - Realm Roller" />
+          </a>
+          <p>
+            This was my first attempt at a group project with my bootcamp cohort. We were tasked to use 2 server-side
+            APIs, find and use a new CSS
+            framework other than Bootstrap, and create a responsive and polished website. My group and I decided to
+            create a 1-stop shop for
+            everything a D&D Master might need to run a successful campaign.
+          </p>
+        </div>
+        <!-- 4th portfolio item (bottom-right) -->
+        <div class="col-md-6 text-center">
+          <h4>Weather Dashboard</h4>
+          <a href="https://github.com/peterphenow/HW6_Weather_Dashboard" target="_blank">Link to Github Repository</a>
+          <a href="https://peterphenow.github.io/HW6_Weather_Dashboard/" target="_blank">
+            <img class="img-thumbnail portfolio-img-container"
+              src="./assets/images/portfolioPics/weatherDashboardImg.png" alt="Portfolio Item #4 - Weather Dashboard" />
+          </a>
+          <p>
+            This weather dashboard was my first assignment using an API with an AJAX call and response. In order to
+            retrieve all the necessary
+            information, I actually needed to complete 2 AJAX calls, with the second call dependant on the data received
+            from the first.
+          </p>
+        </div>
+      </div>
+    </div>
+  </main>
 
-    <!-- Javascript CDNs - jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <!-- Begin footer -->
+  <footer class="footer bg-dark text-white-50">
+    <div class="container text-center">
+      <span>&copy; Copyright Peter Phenow</span>
+    </div>
+  </footer>
+
+  <!-- Javascript CDNs - jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>

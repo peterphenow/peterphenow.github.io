@@ -21,11 +21,25 @@ body {
   background-color: #e2efde;
 }
 
+/*animation for headshot picture*/
+@keyframes rollIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-400%) rotate(-300deg);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px) rotate(0deg);
+  }
+}
+
 /* Styling for about me image */
 .img-container {
   padding-right: 20px;
   width: 200px;
   height: 200px;
+  animation-name: rollIn;
+  animation-duration: 4s;
 }
 
 /* Styling for images on portfolio page */

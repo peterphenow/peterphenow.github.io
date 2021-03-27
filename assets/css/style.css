@@ -54,6 +54,10 @@ body {
   margin-bottom: 20px;
 }
 
+a#email {
+  color: rgb(17, 17, 156);
+}
+
 .footer {
   position: fixed;
   bottom: 0;
